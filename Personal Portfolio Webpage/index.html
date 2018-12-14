@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Slabo+27px" rel="stylesheet">
+</head>
+<style media="screen">
+  body{
+    margin:0;
+    font-family: 'Oswald', sans-serif;
+    padding:0;
+    font-size:25px;
+  }
+  h1{
+    margin:0;
+    padding:0;
+  }
+  #welcome-section{
+    width:100vw;
+    margin:0 0 0 0;
+    height:100vh;
+    background:#e0ebe8;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  #welcome-section>p{
+    color:#00cc66;
+  }
+  #projects{
+      margin:0 0 0 0;
+    width:100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items:center;
+
+  }
+  #profile-links{
+      margin:0 0 0 0;
+    width:100vw;
+    height:100vh;
+    background:#c8f7c5;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  .navbar{
+    list-style:none;
+      background:#e0ebe8;
+      text-align:right;
+      padding:20px 0px 20px;
+      margin:0px 0  0 0;
+      position:fixed;
+      top:0;
+
+      right:0;
+      left:0;
+  }
+  .navbar > li{
+    display:inline-block;
+    padding-right:100px;
+
+  }
+  .navbar>li>a{
+    text-decoration:none;
+    color:#279eb7;
+  }
+  .project-tile{
+    width:400px;
+    margin:50px;
+    border:solid 5px #c1e1ec;
+    border-radius:10px;
+  }
+  .project-tile>img{
+    width:400px;
+    border:solid 0 0 0 5px #c1e1ec;
+  }
+  .project-tile>a{
+
+    color:teal;
+    text-decoration:none;
+    text-align:center;
+  }
+  .circular{
+  border:solid 5px teal;
+  border-radius:50%;
+  padding:10px;
+  margin: 0 50px 0 50px;
+  background:#e0ebe8;
+  }
+  .Contact{
+    display:flex;
+    padding:10px;
+    justify-content:spread;
+  }
+  @media(max-width:1000px){
+    #projects{
+        margin:0 0 0 0;
+      width:100vw;
+      display: grid;
+      grid-template-columns: 1fr ;
+      justify-items:center;
+
+    }
+  }
+</style>
+<body>
+<ul class="navbar" id="navbar">
+  <li><a href="#welcome-section">About</a></li>
+  <li><a href="#projects">Work</a></li>
+  <li><a href="#profile-links">Contact</a></li>
+</ul>
+<div id="welcome-section">
+  <h1>Hey I'm Drumil</h1>
+  <p>a web developer</p>
+</div>
+<div id="projects">
+  <div class="project-tile">
+    <img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="Tribute page">
+  <a href="https://github.com/drumilpatel2000/Free-Code-Camp/tree/master/Tribute%20Page">  <p>A Tribute Page</p></a>
+  </div>
+  <div class="project-tile">
+    <img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="Tribute page">
+  <a href="https://github.com/drumilpatel2000/Free-Code-Camp/tree/master/Tribute%20Page">  <p>A Tribute Page</p></a>
+  </div>
+  <div class="project-tile">
+    <img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="Tribute page">
+  <a href="https://github.com/drumilpatel2000/Free-Code-Camp/tree/master/Tribute%20Page">  <p>A Tribute Page</p></a>
+  </div>
+  <div class="project-tile">
+    <img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="Tribute page">
+  <a href="https://github.com/drumilpatel2000/Free-Code-Camp/tree/master/Tribute%20Page">  <p>A Tribute Page</p></a>
+  </div>
+  <div class="project-tile">
+    <img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="Tribute page">
+  <a href="https://github.com/drumilpatel2000/Free-Code-Camp/tree/master/Tribute%20Page">  <p>A Tribute Page</p></a>
+  </div>
+  <div class="project-tile">
+    <img src="https://cloud.githubusercontent.com/assets/15967809/17642794/d084d718-6171-11e6-83fa-ede5d0a67ad2.png" alt="Tribute page">
+  <a href="https://github.com/drumilpatel2000/Free-Code-Camp/tree/master/Tribute%20Page">  <p>A Tribute Page</p></a>
+  </div>
+</div>
+<div id="profile-links">
+  <h1>Let's work together...</h1>
+  <p>How do you take your coffee?</p>
+  <div class="Contact">
+    <div class="circular">
+      <a href="#">Facebook</a>
+    </div>
+    <div class="circular">
+      <a href="https://github.com/drumilpatel2000">Github</a>
+    </div>
+    <div class="circular">
+      <a target="_blank" href="https://www.freecodecamp.org/flipbyte">FreeCodeCamp</a>
+    </div>
+    <div class="circular">
+      <a href="#">Instagram</a>
+    </div>
+
+  </div>
+  <a id="profile-link" target="_blank" href="https://www.freecodecamp.org/flipbyte">My Profile</a>
+</div>
+</body>
+</html>
